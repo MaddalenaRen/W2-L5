@@ -70,7 +70,7 @@ const cars = [
 for (let i = 0; i < cars.length; i++) {
   cars[i].licensePlate = 'LICENSEPLATE';
 
-  console.log(cars);
+
 }
 
 console.log(cars);
@@ -133,7 +133,7 @@ const numericArray = [
 ]
 
 let i = 0
-while (i !== 32) {
+while (numericArray[i] !== 32) {
   console.log(numericArray[i])
   i++
 }
