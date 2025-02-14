@@ -42,11 +42,11 @@ header img {
 
 .banner-orange {
     background-color: #f56600;
-    height: 25px;
+    height: 30px;
     margin-left: 25px;
     margin-right: 25px;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin-bottom: 25px;
+    margin-top: 25px;
     text-align: center;
     color: white;
     font-size: large;
@@ -110,8 +110,8 @@ header img {
 }
 
 .image-inline {
-    text-align: center;
     white-space: nowrap;
+    margin-bottom: 20px;
     margin-top: 30px;
     background-color: #ffffff;
     margin-left: 25px;
@@ -121,12 +121,14 @@ header img {
 
 .banner-image {
 
+    text-align: center;
     position: center;
     width: 95%;
     margin-left: 25px;
     margin-right: 25px;
     margin-bottom: 20px;
     margin-top: 20px;
+    padding-bottom: 20px;
 }
 
 .img-visore {
@@ -176,7 +178,7 @@ header img {
 
 .image-inline h1 {
     padding-left: 0px;
-
+    text-align: left;
     color: black;
     font-weight: bold;
     display: inline-block;
@@ -193,14 +195,14 @@ header img {
 .banner-image p {
 
     padding-left: 0px;
-    text-align: center;
+
     color: black;
     font-weight: bold;
     display: inline-block;
 }
 
 .banner-image span {
-    text-align: left;
+
     font-size: medium;
     font-weight: bold;
     color: #427f88;
@@ -210,4 +212,8 @@ header img {
     color: white;
     font-weight: bold;
 
+}
+
+.left {
+    text-align: left;
 }
