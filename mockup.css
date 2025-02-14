@@ -75,7 +75,7 @@ header img {
     display: inline-block;
 
     width: 23%;
-    height: 250px;
+    height: 300px;
     margin: 5px;
     background-size: cover;
     background-position: center;
@@ -104,6 +104,7 @@ header img {
     height: 100%;
     background-size: contain;
     position: center;
+
 
     border-radius: 10px;
     display: inline-block;
